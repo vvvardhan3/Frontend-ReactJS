@@ -1,0 +1,29 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "reactjs by vishnu vardhan",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvvardhan3/Frontend-ReactJS.git#main"
+  },
+  "keywords": [
+    "reactjs",
+    "react"
+  ],
+  "author": "Vishnu Vardhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vvvardhan3/Frontend-ReactJS/issues"
+  },
+  "homepage": "https://github.com/vvvardhan3/Frontend-ReactJS/tree/main#readme",
+  "devDependencies": {
+    "parcel": "^2.10.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
