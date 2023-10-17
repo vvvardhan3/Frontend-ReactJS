@@ -38,12 +38,27 @@ import ReactDOM from "react-dom/client";
 // JSX => React.createElement => ReactElement, Which is JS Object at end-of-day => HTMLElement, While Rendering!
 // How JSX is different from HTML; In HTML we write just "Class" but in JSX, We write it as "ClassName"
 // Attributes to JSX, We have to use "CamelCase"
-const jsxheading = (<h1 id="heading">
-    Namaste, VishnuVardhan!
-    </h1>); // We are using round-brakets because babel needs to understand this as a JSX
+const Title = () => (
+    <h1 id="heading">
+        Vishnu Vardhan Foundation
+    </h1>
+); // We are using round-brakets because babel needs to understand this as a JSX
 
-console.log(jsxheading);
+// React Component
+// Everything in React is a component.
+// two types of Components =>
+// Class based - OLD way to write the code. It uses JS Classes
+// Functional based - New way to write the code. It uses JS Functions
+
+// Component Composition
+const HeadingComponet = () => (
+    <dic id="container">
+        <Title/>
+        <h1>Namaste!</h1>
+    </dic>
+);
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(jsxheading);
+root.render(<HeadingComponet/>);
