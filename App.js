@@ -40,7 +40,7 @@ import ReactDOM from "react-dom/client";
 // Attributes to JSX, We have to use "CamelCase"
 const jsxheading = (<h1 id="heading">
     Namaste, VishnuVardhan!
-    </h1>); // We are using round-brakets because babel needs to understand this as a 
+    </h1>); // We are using round-brakets because babel needs to understand this as a JSX
 
 console.log(jsxheading);
 
