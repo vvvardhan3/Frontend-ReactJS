@@ -18,7 +18,7 @@
 - Error handling
 - Hosts on HTTPS
 - Tree Shaking - Will remove the unused code 
-- Different dev and prod bundles
+- Different dev and prod bundle
 
 
 # JSX
